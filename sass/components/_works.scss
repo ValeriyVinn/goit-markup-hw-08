@@ -1,0 +1,35 @@
+.no-padding {
+    padding-top: 0px;
+}
+
+.works__header {
+    margin-bottom: 94px;
+}
+
+.works__list {
+    display: flex;
+
+    .works__item + .works__item {
+    margin-left: 30px;
+}
+}
+
+.works__item {
+    position: relative;
+}
+
+.no-gap {
+    display: block;
+}
+
+.works__label {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: #ffffff;
+    background-color: rgba(47, 48, 58, 0.8);
+    @include font (700, 14, 16.41, 0.03);
+    text-align: center;
+}

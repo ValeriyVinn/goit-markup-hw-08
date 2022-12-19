@@ -1,0 +1,42 @@
+.feature__hidden-header,
+.examples__hidden-header {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.feature__list {
+    display: flex;
+    justify-content: space-between;
+
+    .feature__item + .feature__item {
+       margin-left: 30px;
+    }
+}
+
+
+.feature__image {
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.feature__header {
+    @include font (700, 14, 16.41, 0.03);
+    margin-bottom: 10px;
+}
+
+.feature__text {
+    @include font (null, 14, 24, 0.03);   
+}

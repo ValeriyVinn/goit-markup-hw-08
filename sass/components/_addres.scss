@@ -1,0 +1,27 @@
+.addres__list {
+    font-style: normal;
+
+    .addres__item+.addres__item {
+        margin-top: 9px;
+    }
+}
+
+.list.addres__list {
+    color: var(--wite-color);
+}
+
+.addres__mailto,
+.addres__tel {
+    color: #d9d9d9;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.footer-social__addres {
+    margin-left: 70px;
+    margin-top: 12px;
+}
