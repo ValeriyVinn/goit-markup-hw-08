@@ -1,9 +1,14 @@
+.footer-social {
+    justify-items: center;
+}
+
+
 .footer-social__header,
 .footer-subscribe__header {
     color: var(--wite-color);
     margin-bottom: 20px;
     @include font (700, 14, 16.41, 0.03);
-    text-align: left;
+    text-align: center;
 }
 
 .footer-social__link {

@@ -8,6 +8,7 @@
 
 .list.addres__list {
     color: var(--wite-color);
+
 }
 
 .addres__mailto,
@@ -22,6 +23,21 @@
 }
 
 .footer-social__addres {
-    margin-left: 70px;
-    margin-top: 12px;
+    
+    
+
+    @media screen and (max-width: 767px) {
+            margin-bottom: 60px;
+        }
+    
+        @media screen and (min-width: 768px) {
+           margin-left: 165px;
+           margin-top: 0px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            margin-left: 70px;
+            margin-top: 12px;
+        }
+    
 }
