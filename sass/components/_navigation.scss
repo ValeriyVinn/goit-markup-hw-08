@@ -2,12 +2,8 @@
 
 .nav__list {
     
-    display: none;
-
-
-    
+    display: none; 
         @media screen and (min-width: 768px) {
-          // width: 768px;
           display: flex;
           .nav__item +.nav__item {
               margin-left: 50px;
@@ -19,12 +15,9 @@
           margin-right: 305px;
           
           margin-left: 0px;
-          
+    
         }
-
 }
-
-
 
 .nav__item--active {
     display: block;

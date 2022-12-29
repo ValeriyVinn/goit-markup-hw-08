@@ -1,6 +1,5 @@
 .addres__list {
     font-style: normal;
-
     .addres__item+.addres__item {
         margin-top: 9px;
     }
@@ -8,7 +7,6 @@
 
 .list.addres__list {
     color: var(--wite-color);
-
 }
 
 .addres__mailto,
@@ -24,8 +22,6 @@
 
 .footer-social__addres {
     
-    
-
     @media screen and (max-width: 767px) {
             margin-bottom: 60px;
         }
@@ -39,5 +35,4 @@
             margin-left: 70px;
             margin-top: 12px;
         }
-    
 }

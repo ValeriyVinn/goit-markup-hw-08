@@ -1,6 +1,5 @@
 .team {
     background-color: #f5f4fa;
-   
 }
 
 .team__item {
@@ -8,15 +7,13 @@
     box-shadow: 0px 4px 4px 0px #00000040;
     @media screen and (min-width: 768px) {
             width: calc((100% - 4 * 15px) /2);
-            margin: 0px 15px;
-            
+            margin: 0px 15px;  
         }
         @media screen and (min-width: 768px) and (max-width: 1199px) {
             &:nth-child(-n +2) {
                 margin-bottom: 30px;
             }
         }
-
 
          @media screen and (min-width: 1200px) {
              width: calc((100% - 8 * 15px) /4);
@@ -36,8 +33,6 @@
         display: flex;
         flex-wrap: wrap;
     }
-    // display: flex;
-    // justify-content: space-around;
 }
 
 .team.section-header {

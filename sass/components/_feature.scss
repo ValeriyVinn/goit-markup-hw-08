@@ -26,10 +26,8 @@
 .feature__item {
     @media screen and (min-width: 768px) {
             width: calc((100% - 4 * 15px) /2);
-            margin: 0px 15px;   
-             
+            margin: 0px 15px;       
         }
-
     @media screen and (min-width: 1200px) {
             width: calc((100% - 8 * 15px) /4);
                 margin: 0px 15px;
@@ -65,7 +63,6 @@
     @media screen and (max-width: 1199px) {
         margin-bottom: 30px;
     }
-
 }  
        
 
